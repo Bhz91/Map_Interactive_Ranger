@@ -8,7 +8,7 @@ var Stadia_OSMBright = L.tileLayer(
       '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
   }
 );
-
+Stadia_OSMBright.addTo(map);
 
 
 var marker = L.marker([48.86284902002203, 2.3413018393060523]).addTo(map);

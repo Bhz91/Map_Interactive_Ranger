@@ -8,9 +8,7 @@ var Stadia_OSMBright = L.tileLayer(
       '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
   }
 );
-var secondLayer = L.tileLayer('C:\Users\Cardoso\Desktop\20220212_contact_leaflet_map-main\visuel-atelier-cartes-fantasy2.png', {
-  attribution: 'Map data © Second Source'
-}).addTo(map);
+
 
 
 var marker = L.marker([48.86284902002203, 2.3413018393060523]).addTo(map);
